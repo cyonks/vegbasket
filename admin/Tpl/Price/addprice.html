@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>添加价格</title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css">
+	<script type="text/javascript" src="__PUBLIC__/js/My97DatePicker/WdatePicker.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+	<script type="text/javascript">
+
+	function getmarket()
+	{
+		var $city=$('select[name="city"]').val();
+		$.getJSON('__URL__/getmarket',{city:$city},function(json){
+		if(json.status==1){
+			// $mess.slideDown(3000,function(){
+			// $mess.css('display','block');
+			// }).html(json.data[0]['title']);
+			var s="";
+			for(var i=0;i<json.data.length;i++)
+			{
+				s+="<option>"+json.data[i]['market_name']+"</option>";
+			}
+			var old_select = document.getElementById('marketid'); 
+			old_select.innerHTML =s; // 将原来的table内容更换
+		}else{
+				var old_select = document.getElementById('marketid'); 
+				old_select.innerHTML ="<option>没有该城市数据</option>"; 
+			}
+		});
+	}
+
+	function getproduct()
+	{
+		var $category=$('select[name="cname"]').val();
+		$.getJSON('__URL__/getproduct',{category:$category},function(json){
+		if(json.status==1){
+			// $mess.slideDown(3000,function(){
+			// $mess.css('display','block');
+			// }).html(json.data[0]['title']);
+			var s="";
+			for(var i=0;i<json.data.length;i++)
+			{
+				s+="<option>"+json.data[i]['product_name']+"</option>";
+			}
+			var old_select = document.getElementById('productid'); 
+			old_select.innerHTML =s; // 将原来的table内容更换
+		}else{
+				var old_select = document.getElementById('productid'); 
+				old_select.innerHTML ="<option>没有该城市数据</option>"; 
+			}
+		});
+	}
+	</script>
+</head>
+<body>
+<div id="main">
+	<div class="title">添加价格</div>
+	<div class="content" id="container">
+	<div class="formdiv">
+	  <form class="inform" action="__URL__/AddPrice" method="post">
+		<p>
+			<input type="date" name="date" value="{$today}"/>
+
+		</p>
+		<p>
+			<!-- <input  style="width:15%" type="text" name="city" placeholder="城市"/> -->
+			<select name="city" style="width:15%" onchange="getmarket()">
+				<volist name="citylist" id="cl">
+					<option>
+						{$cl.city_name}
+					</option>
+				</volist>
+			</select>
+			<!-- <input style="width:75%" type="text"  name="mname" placeholder="市场"/> -->
+			<select name="mname" id="marketid" style="width:75%">
+				<volist name="marketlist" id="ml">
+					<option>
+						{$ml.market_name}
+					</option>
+				</volist>
+			</select>		
+		</p>
+
+		
+		<p>
+			<!-- <input style="width:45%" type="text" name="cname" placeholder="分类"/> -->
+
+			<select name="cname" style="width:45%" onchange="getproduct()">
+				<volist name="categorylist" id="clt">
+					<option>
+						{$clt.category_name}
+					</option>
+				</volist>
+			</select>
+			<!-- <input style="width:45%" type="text" name="pname" placeholder="名称"/> -->
+			<select name="pname" style="width:45%" id="productid">
+				<volist name="productlist" id="pl">
+					<option>
+						{$pl.product_name}
+					</option>
+				</volist>
+			</select>
+		</p>
+		<p>
+			<input style="width:15%" type="number" name="price" placeholder="价格"/>
+			<input style="width:75%" type="text" name="datasource" placeholder="数据来源"/>
+		</p>
+	   
+		<input class="submit" type="submit" value="提交"/>
+	   </form>
+	   <div>{$test}</div>
+	</div>
+	</div>
+	</div>
+</body>
+</html>

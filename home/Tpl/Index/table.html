@@ -1,0 +1,36 @@
+      <table width="100%" border="1" cellspacing="0" cellpadding="0">
+            <thead>
+            <tr>
+              <th scope="col">日期
+              <!--
+                  <input id="sdate" class="Wdate" type="text" onClick="WdatePicker()">
+              -->
+              </th>
+
+              <th scope="col">市场</th>
+              <th scope="col">产品</th>
+              <th scope="col">类别</th>
+              <th scope="col">价格</th>
+              <th scope="col">发布者</th>
+              <th scope="col">数据来源</th>
+            </tr>
+            </thead>
+            <tbody id="tbody">
+            <volist name="list" id="vo">
+            
+              <tr align="center" id="tb_body">
+              <td><a href="" target="_blank">{$vo.pdate}</a></td>
+              <td>{$vo.market_name}</td>
+              <td><a href="__URL__/../Product/index/pname/{$vo.product_name}/mname/{$vo.market_name}" target="_blank">{$vo.product_name}</a></td>
+              <td>{$vo.category_name}</td>
+              <td>{$vo.product_price}</td>
+              <td><a href="" target="_blank">{$vo.publisher}</a></td>
+              <td>{$vo.datasource}</td> 
+              </tr>
+          </volist>
+          </tbody>
+      </table>
+      <div class="result page" id="page">{$page}</div>
+      <!-- <div>p:{$parameter}</div> -->
+      <!-- <div>p2:{$parameter2}</div> -->
+      <!-- <div>p3:{$parameter3}</div> -->

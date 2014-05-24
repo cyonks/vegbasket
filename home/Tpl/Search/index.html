@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>菜篮子查询网</title>
+<!-- paste this code into your webpage -->
+<link href="__PUBLIC__/tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel='stylesheet' href='__PUBLIC__/css/index.css' type='text/css'/>
+
+<script type="text/javascript" src="__PUBLIC__/js/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="__PUBLIC__/tablecloth/tablecloth.js"></script>
+<script type="text/javascript" src='__PUBLIC__/js/jquery.js'></script>
+<script type="text/javascript" src="__PUBLIC__/js/search.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/searchSuggest.js"></script>
+<script type="text/javascript">
+  var url='__URL__';
+  var _public='__PUBLIC__';
+</script>
+
+<!-- end -->
+
+</head>
+<body>
+<div class="whole_page2">
+  <div class="C_top">
+  <div class="C_logo"><a href="/vegbasket" title="菜篮子查询网">菜篮子查询网</a></div>
+  <div class="C_search">
+  <form action="__URL__/../Search/index" method="get" name="DJmyform" id="DJmyform">
+    <div class="C_searchTxt" id="searchSuggest">
+      <input type="text" name="keyword" id="suggest_input" autocomplete="off" class="C" value="请输入产品名称或产品编号查询" onfocus="if(this.value=='请输入产品名称或产品编号查询') this.value='';" onblur="if(this.value=='') this.value='请输入产品名称或产品编号查询';" onkeydown="if(event.keyCode==13)refreshtable()" autofocus x-webkit-speech/>
+    </div>
+    <div class="C_searchBtn">
+      <input name="" type="button" id="DJSearchSubmit" value="搜索" class="btn" onclick="refreshtable()" />
+    </div>
+    </form>
+    <ul id="suggest_ul">
+    </ul>
+    <div class="search_key">热门查询:&nbsp;
+     <volist name="listsearch" id="ls">
+      <a href='javascript:void(0);' onclick="hotsearch('{$ls.product_name}')">{$ls.product_name}</a>&nbsp;
+     </volist>
+    </div>
+  </div>
+</div>
+
+<div id="nav2_">
+  <nav class="breadcrumb">
+     <input id="sdate" class="Wdate" name="date" type="text" value={$date} readonly="true" onfocus="WdatePicker({skin:'whyGreen',onpicked:function(dp){refreshtable();}})" />
+     <!-- window.location.href='__URL__/../Index/index?date='+this.value; -->
+      <select id="city" class="cities" name="cities" title="城市" onchange="refreshtable()">
+      	  <!-- <option value={$city}>城市:</option> -->
+      	  <option selected="selected">{$city}</option>
+        <volist name="listcity" id="lc">
+          <option>{$lc.city_name}</option>
+        </volist>
+      </select>
+      <!-- <div id="s_city">{$city}</div> -->
+      <!-- <input type="hidden" name="city" value={$city}/> -->
+      <div class="category_">
+      <span  title="分类">分类:</span>
+        <select  class="select_cate" name="categorys" title="分类" onchange="refreshtable()" autocomplete="on">
+
+            <option selected="selected">{$category}</option>
+          <volist name="listcate" id="v">
+            <option >{$v.category_name}</option>
+          </volist>
+        </select>
+        <!-- <div id="s_category">{$category}</div> -->
+        <!-- <input type="hidden" name="category" value={$category}/> -->
+      </div>
+  </nav>  
+</div>
+
+
+<div>
+<div id="container">
+  <div id="tb_content">
+    <!-- all you need with Tablecloth is a regular, well formed table. No need for id's, class names... -->
+    <include file="table" />
+    
+  </div>
+</div>
+</div>
+
+<include file="./public/html/footer.html"/>
+</body>
+</html>

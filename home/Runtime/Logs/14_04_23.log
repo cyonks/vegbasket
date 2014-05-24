@@ -1,0 +1,723 @@
+[ 2014-04-23T20:48:13+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003396s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:1.469097s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.012958s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.067985s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.006184s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.002740s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.092906s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.041298s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.009684s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.034727s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-23' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.598055s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-23' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.040025s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\home\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.131178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131285s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002203s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006067s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002055s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012443s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006462s ]
+
+[ 2014-04-23T20:48:33+08:00 ] 0.0.0.0 /vegbasket/index.php/Index/index/date/2014-03-20/city/����/category/�߲�
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004143s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005061s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012679s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.009310s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.014189s ]
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.001748s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.012292s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.001736s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.011925s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001633s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-03-20' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.069079s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-03-20' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.122823s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\home\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029315s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001626s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001536s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003773s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010621s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003216s ]
+
+[ 2014-04-23T21:08:26+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003341s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003485s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017098s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001951s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003421s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001564s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009237s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001417s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001508s ]
+
+[ 2014-04-23T21:08:26+08:00 ] 0.0.0.0 /vegbasket/index.php/navig.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001812s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+ERR: 无法加载模块:navig
+
+[ 2014-04-23T21:08:26+08:00 ] 0.0.0.0 /vegbasket/index.php/head.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002159s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004329s ]
+ERR: 无法加载模块:head
+
+[ 2014-04-23T21:08:26+08:00 ] 0.0.0.0 /vegbasket/index.php/price.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002063s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002216s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001920s ]
+ERR: 无法加载模块:price
+
+[ 2014-04-23T21:08:34+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001937s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022469s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001167s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001211s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001012s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004856s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001450s ]
+
+[ 2014-04-23T21:08:34+08:00 ] 0.0.0.0 /vegbasket/index.php/head.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001694s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001838s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+ERR: 无法加载模块:head
+
+[ 2014-04-23T21:08:34+08:00 ] 0.0.0.0 /vegbasket/index.php/price.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+ERR: 无法加载模块:price
+
+[ 2014-04-23T21:08:34+08:00 ] 0.0.0.0 /vegbasket/index.php/navig.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007705s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007846s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003835s ]
+ERR: 无法加载模块:navig
+
+[ 2014-04-23T21:08:42+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001753s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001874s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+NOTIC: [8] Undefined index: name C:\inetpub\wwwroot\vegbasket\home\Lib\Action\AdminAction.class.php 第 16 行.
+NOTIC: [8] Undefined index: pwd C:\inetpub\wwwroot\vegbasket\home\Lib\Action\AdminAction.class.php 第 18 行.
+
+[ 2014-04-23T21:08:42+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001726s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002844s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021117s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001781s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002947s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002033s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008761s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002726s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002849s ]
+
+[ 2014-04-23T21:08:42+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/head.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009759s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+NOTIC: [8] Constant THEME_NAME already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075926s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001927s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004716s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012970s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001915s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002028s ]
+
+[ 2014-04-23T21:08:42+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/navig.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001857s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001997s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+NOTIC: [8] Constant THEME_NAME already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023973s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001264s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001674s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001657s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007201s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007273s ]
+
+[ 2014-04-23T21:08:43+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/price.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001785s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.023152s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.012963s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001532s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.001552s ]
+SQL: SELECT * FROM `city` WHERE ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.022643s ]
+SQL: SELECT * FROM `market` WHERE ( `city_id` = '1' )  [ RunTime:0.002449s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` = '蔬菜' ) LIMIT 1   [ RunTime:0.002452s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.013088s ]
+SQL: SELECT * FROM `product` WHERE ( `category_id` = '1' )  [ RunTime:0.004249s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: test C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\489a96c06d16235dce9bd2a5908c60b3.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023860s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002068s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003469s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008240s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2014-04-23T21:08:46+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002060s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002193s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+
+[ 2014-04-23T21:08:47+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002458s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+NOTIC: [8] Undefined index: name C:\inetpub\wwwroot\vegbasket\home\Lib\Action\AdminAction.class.php 第 16 行.
+NOTIC: [8] Undefined index: pwd C:\inetpub\wwwroot\vegbasket\home\Lib\Action\AdminAction.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.009782s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_name` = null ) AND ( `admin_pwd` = null ) LIMIT 1   [ RunTime:0.001010s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016730s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002266s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001512s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001452s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007354s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002015s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002144s ]
+
+[ 2014-04-23T21:08:56+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002413s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002639s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.011722s ]
+SQL: SELECT * FROM `admin` WHERE ( `admin_name` = 'admin' ) AND ( `admin_pwd` = 'admin' ) LIMIT 1   [ RunTime:0.000804s ]
+
+[ 2014-04-23T21:08:56+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002199s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003408s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076704s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.017027s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010734s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001384s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031092s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001517s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001632s ]
+
+[ 2014-04-23T21:08:56+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/head.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001673s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001806s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+NOTIC: [8] Constant THEME_NAME already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026924s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002483s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001946s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001175s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007446s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001530s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2014-04-23T21:08:56+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/navig.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002005s ]
+NOTIC: [8] Constant THEME_NAME already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018068s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001121s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001156s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000981s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005689s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001910s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002027s ]
+
+[ 2014-04-23T21:08:58+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/price.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002084s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.013809s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.015184s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.001172s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.001600s ]
+SQL: SELECT * FROM `city` WHERE ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.002393s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.021271s ]
+SQL: SELECT * FROM `market` WHERE ( `city_id` = '1' )  [ RunTime:0.001193s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` = '蔬菜' ) LIMIT 1   [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.015061s ]
+SQL: SELECT * FROM `product` WHERE ( `category_id` = '1' )  [ RunTime:0.004432s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: test C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\489a96c06d16235dce9bd2a5908c60b3.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028796s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003612s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001621s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003068s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010481s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002093s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002203s ]
+
+[ 2014-04-23T21:09:01+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002052s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003156s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023530s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001112s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001125s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001158s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005225s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001455s ]
+
+[ 2014-04-23T21:09:01+08:00 ] 0.0.0.0 /vegbasket/index.php/head.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001695s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+ERR: 无法加载模块:head
+
+[ 2014-04-23T21:09:01+08:00 ] 0.0.0.0 /vegbasket/index.php/price.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001527s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001642s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+ERR: 无法加载模块:price
+
+[ 2014-04-23T21:09:01+08:00 ] 0.0.0.0 /vegbasket/index.php/navig.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+ERR: 无法加载模块:navig
+
+[ 2014-04-23T21:09:14+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002701s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002846s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018308s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001075s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001091s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003509s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008071s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001733s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2014-04-23T21:09:16+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/price.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002042s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.015394s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.014475s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.003179s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.002217s ]
+SQL: SELECT * FROM `city` WHERE ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.004555s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.012427s ]
+SQL: SELECT * FROM `market` WHERE ( `city_id` = '1' )  [ RunTime:0.001741s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` = '蔬菜' ) LIMIT 1   [ RunTime:0.001976s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.016358s ]
+SQL: SELECT * FROM `product` WHERE ( `category_id` = '1' )  [ RunTime:0.003884s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: test C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\489a96c06d16235dce9bd2a5908c60b3.php 第 101 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028042s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001280s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001009s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005594s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001400s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2014-04-23T21:09:16+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/head.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002637s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002772s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+NOTIC: [8] Constant THEME_NAME already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028476s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001312s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001832s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002103s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010891s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001876s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001978s ]
+
+[ 2014-04-23T21:09:16+08:00 ] 0.0.0.0 /vegbasket/index.php/Admin/navig.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002380s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [8] Constant THEME_NAME already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029196s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003420s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001703s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003108s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.033319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043288s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2014-04-23T21:17:57+08:00 ] 0.0.0.0 /vegbasket/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012061s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.084930s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.020049s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.013047s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.001694s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.003662s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.013847s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.003239s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.011727s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.003433s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-23' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.042508s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-23' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.039238s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\home\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027129s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001160s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001115s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000957s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004984s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003131s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003238s ]
+
+[ 2014-04-23T21:18:06+08:00 ] 0.0.0.0 /vegbasket/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003231s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003381s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.035067s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.011831s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.011957s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.001753s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.002765s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.013116s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.002228s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.010789s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.002236s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-23' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.044578s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-23' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.057037s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\home\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030836s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001954s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001709s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001308s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006999s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004736s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004874s ]
+
+[ 2014-04-23T21:18:17+08:00 ] 0.0.0.0 /vegbasket/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005859s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.029204s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.011540s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.018494s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.001715s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.011755s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.012508s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-23' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.048300s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-23' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.069424s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\home\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031106s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002391s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002273s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001465s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010943s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002599s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002733s ]
+
+[ 2014-04-23T21:32:55+08:00 ] 0.0.0.0 /vegbasket/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003666s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.033343s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.012136s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.018240s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.007807s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.012653s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.034092s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.001789s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.017648s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.002382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-23' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.041197s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-23' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.049524s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\home\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\home\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\home\Runtime\Cache\d046431aa157c89f3a1c30c426be003b.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029486s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001164s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001120s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001606s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005481s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001928s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002183s ]
+

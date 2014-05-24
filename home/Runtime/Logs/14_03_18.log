@@ -1,0 +1,2972 @@
+[ 2014-03-18T11:30:26+08:00 ] /vegbasket/index.php/ | INFO: Tag[ route_check ] --START--
+[ 2014-03-18T11:30:26+08:00 ] /vegbasket/index.php/ | INFO: Run CheckRoute Behavior [ RunTime:0.002517s ]
+[ 2014-03-18T11:30:26+08:00 ] /vegbasket/index.php/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.002676s ]
+[ 2014-03-18T11:30:26+08:00 ] /vegbasket/index.php/ | INFO: Tag[ app_begin ] --START--
+[ 2014-03-18T11:30:26+08:00 ] /vegbasket/index.php/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002085s ]
+[ 2014-03-18T11:30:26+08:00 ] /vegbasket/index.php/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002323s ]
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.040566s ]
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005900s ]
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Tag[ view_template ] --START--
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Run LocationTemplate Behavior [ RunTime:0.005780s ]
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.005926s ]
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Tag[ view_parse ] --START--
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Run ParseTemplate Behavior [ RunTime:0.030423s ]
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.030547s ]
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Tag[ view_filter ] --START--
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Run ContentReplace Behavior [ RunTime:0.002019s ]
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Run TokenBuild Behavior [ RunTime:0.001968s ]
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001774s ]
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Run ShowRuntime Behavior [ RunTime:0.002393s ]
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008421s ]
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Tag[ view_end ] --START--
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.002632s ]
+[ 2014-03-18T11:30:27+08:00 ] /vegbasket/index.php/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.003164s ]
+[ 2014-03-18T13:11:02+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031999s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.212124s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.094855s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048548s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002685s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002098s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001598s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008569s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003827s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003933s ]
+
+[ 2014-03-18T13:11:28+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003577s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+
+[ 2014-03-18T13:12:03+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+
+[ 2014-03-18T13:13:21+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002246s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002386s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+
+[ 2014-03-18T13:14:19+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002973s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005444s ]
+ERR: ÂèÇÊï∞ÈîôËØØÊàñËÄÖÊú™ÂÆö‰πâ:keyword
+
+[ 2014-03-18T13:14:34+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003155s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002198s ]
+SQL: CALL search_product('≤À–ƒ') [ RunTime:0.296472s ]
+
+[ 2014-03-18T13:15:28+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002395s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002534s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005109s ]
+SQL: CALL search_product('≤À–ƒ') [ RunTime:0.015862s ]
+
+[ 2014-03-18T13:15:34+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002237s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+SQL: CALL search_product('≤À–ƒ') [ RunTime:0.016623s ]
+
+[ 2014-03-18T13:19:26+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003388s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003511s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: CALL search_product('≤À–ƒ') [ RunTime:0.011575s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022547s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002244s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002541s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002360s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009536s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003095s ]
+
+[ 2014-03-18T13:20:49+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/°Æ±æµÿ≤À–ƒ°Ø
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001981s ]
+SQL: CALL search_product('°Æ±æµÿ≤À–ƒ°Ø') [ RunTime:0.012414s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018487s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002492s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001853s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001489s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007977s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003012s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003141s ]
+
+[ 2014-03-18T13:20:58+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/±æµÿ≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002485s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002627s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005372s ]
+SQL: CALL search_product('±æµÿ≤À–ƒ') [ RunTime:0.015798s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016969s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002765s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001569s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001058s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007010s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001505s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2014-03-18T13:21:20+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/±æµÿ≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001995s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002287s ]
+SQL: CALL search_product('±æµÿ≤À–ƒ') [ RunTime:0.010794s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017870s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002466s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001718s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001419s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007785s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002343s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002471s ]
+
+[ 2014-03-18T13:22:11+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/±æµÿ≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003561s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003692s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002434s ]
+
+[ 2014-03-18T13:22:36+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/±æµÿ≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002070s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+SQL: CALL search_product('±æµÿ≤À–ƒ') [ RunTime:0.014591s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025299s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003990s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003631s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002915s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014974s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003121s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003247s ]
+
+[ 2014-03-18T13:23:12+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/±æµÿ≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002304s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002450s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002535s ]
+SQL: CALL search_product('±æµÿ≤À–ƒ') [ RunTime:0.017659s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017491s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002163s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001738s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001559s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007768s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001475s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001586s ]
+
+[ 2014-03-18T13:24:43+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/±æµÿ≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005658s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006023s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: CALL search_product('±æµÿ≤À–ƒ') [ RunTime:0.010311s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021066s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002227s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001763s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001833s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010089s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002780s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002893s ]
+
+[ 2014-03-18T13:24:47+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/±æµÿ≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001657s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: CALL search_product('±æµÿ≤À–ƒ') [ RunTime:0.023872s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022656s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008266s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001896s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001956s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019116s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001956s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002089s ]
+
+[ 2014-03-18T13:26:35+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015840s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019557s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001610s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002720s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001987s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008766s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003223s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003326s ]
+
+[ 2014-03-18T13:26:39+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?search_txt=%E7%AE%97%E6%B3%95
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002682s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+ERR: ÂèÇÊï∞ÈîôËØØÊàñËÄÖÊú™ÂÆö‰πâ:keyword
+
+[ 2014-03-18T13:27:15+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?search_txt=%E8%8F%9C%E5%BF%83
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004106s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002381s ]
+ERR: ÂèÇÊï∞ÈîôËØØÊàñËÄÖÊú™ÂÆö‰πâ:keyword
+
+[ 2014-03-18T13:27:20+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.083321s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004776s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019631s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002137s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002270s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002171s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009488s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004147s ]
+
+[ 2014-03-18T13:27:21+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005582s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015485s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004454s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038185s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001951s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002227s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004319s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011886s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002489s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002585s ]
+
+[ 2014-03-18T13:27:25+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002843s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002987s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: CALL search_product('') [ RunTime:0.017275s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016447s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002831s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001685s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001464s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008612s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001718s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001836s ]
+
+[ 2014-03-18T13:27:26+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002291s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002455s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+SQL: CALL search_product('') [ RunTime:0.012959s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019081s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002142s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001490s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001148s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006588s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001928s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002046s ]
+
+[ 2014-03-18T13:27:27+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002043s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+SQL: CALL search_product('') [ RunTime:0.010398s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019443s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001946s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001395s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006916s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002320s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002452s ]
+
+[ 2014-03-18T13:27:39+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013099s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004135s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017867s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001621s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001573s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001596s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006889s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002286s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004049s ]
+
+[ 2014-03-18T13:27:45+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E8%8F%9C%E5%BF%83
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002277s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002416s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+SQL: CALL search_product('ËèúÂøÉ') [ RunTime:0.044485s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016246s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001969s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002397s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001395s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007593s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001615s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001715s ]
+
+[ 2014-03-18T13:28:48+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E8%8F%9C%E5%BF%83
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001979s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: CALL search_product('ËèúÂøÉ') [ RunTime:0.007558s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015280s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001545s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001481s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001378s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006361s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001676s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001774s ]
+
+[ 2014-03-18T13:28:51+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E8%8F%9C%E5%BF%83
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002565s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002732s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: CALL search_product('ËèúÂøÉ') [ RunTime:0.008953s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018556s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001428s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001330s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001199s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006164s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001823s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2014-03-18T13:28:58+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E7%99%BD%E8%8F%9C
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002688s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+SQL: CALL search_product('ÁôΩËèú') [ RunTime:0.009580s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017040s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001363s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001674s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001209s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006241s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002051s ]
+
+[ 2014-03-18T13:29:15+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E8%8F%9C%E5%BF%83
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+SQL: CALL search_product('ËèúÂøÉ') [ RunTime:0.006861s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016071s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001760s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001313s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001235s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006150s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001824s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001931s ]
+
+[ 2014-03-18T13:31:47+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007335s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007478s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+SQL: CALL search_product('ËèúÂøÉ') [ RunTime:0.006797s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022710s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001838s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001704s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001648s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007305s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011108s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011216s ]
+
+[ 2014-03-18T13:35:38+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003161s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003293s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002167s ]
+
+[ 2014-03-18T13:35:38+08:00 ] 0.0.0.0 /vegbasket/index.php/searchkw/keyword=≤À–ƒ.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002864s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002995s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+ERR: Êó†Ê≥ïÂä†ËΩΩÊ®°Âùó:searchkw
+
+[ 2014-03-18T13:36:16+08:00 ] 0.0.0.0 /vegbasket/index.php/Search
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001984s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002126s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+
+[ 2014-03-18T13:36:16+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword=≤À–ƒ.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002028s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002158s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+ERR: ÂèÇÊï∞ÈîôËØØÊàñËÄÖÊú™ÂÆö‰πâ:keyword
+
+[ 2014-03-18T13:36:40+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword=≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002727s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017146s ]
+ERR: ÂèÇÊï∞ÈîôËØØÊàñËÄÖÊú™ÂÆö‰πâ:keyword
+
+[ 2014-03-18T13:36:43+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword=≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002477s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
+ERR: ÂèÇÊï∞ÈîôËØØÊàñËÄÖÊú™ÂÆö‰πâ:keyword
+
+[ 2014-03-18T13:36:44+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword=≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001576s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001691s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+ERR: ÂèÇÊï∞ÈîôËØØÊàñËÄÖÊú™ÂÆö‰πâ:keyword
+
+[ 2014-03-18T13:36:45+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword=≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001761s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+ERR: ÂèÇÊï∞ÈîôËØØÊàñËÄÖÊú™ÂÆö‰πâ:keyword
+
+[ 2014-03-18T13:37:08+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword=≤À–ƒ
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002736s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002873s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+ERR: ÂèÇÊï∞ÈîôËØØÊàñËÄÖÊú™ÂÆö‰πâ:keyword
+
+[ 2014-03-18T13:37:20+08:00 ] 0.0.0.0 /vegbasket/index.php/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012378s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003146s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023564s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002703s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002232s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005834s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013258s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002764s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002875s ]
+
+[ 2014-03-18T13:37:26+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E7%99%BD%E8%8F%9C
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002149s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002288s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002648s ]
+SQL: CALL search_product('ÁôΩËèú') [ RunTime:0.008642s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018845s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001594s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002006s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002643s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008311s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002138s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002241s ]
+
+[ 2014-03-18T13:38:52+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword=∞◊≤À
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004310s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004458s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+ERR: ÂèÇÊï∞ÈîôËØØÊàñËÄÖÊú™ÂÆö‰πâ:keyword
+
+[ 2014-03-18T13:39:02+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/∞◊≤À
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001718s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001846s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: CALL search_product('∞◊≤À') [ RunTime:0.012780s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018121s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003103s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001868s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001485s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008528s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001792s ]
+
+[ 2014-03-18T13:39:22+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/f
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004409s ]
+SQL: CALL search_product('f') [ RunTime:0.006812s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019452s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002396s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002521s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001498s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008957s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005301s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005409s ]
+
+[ 2014-03-18T13:39:31+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw/keyword/s
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002131s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003143s ]
+SQL: CALL search_product('s') [ RunTime:0.007529s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017436s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001226s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001260s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001092s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006265s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001529s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001620s ]
+
+[ 2014-03-18T14:18:38+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.019465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.107807s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.016914s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003910s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.349123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.349253s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003320s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002083s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001812s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010414s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005326s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005452s ]
+
+[ 2014-03-18T14:18:40+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.022595s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.006340s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023882s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002089s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001874s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002656s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009466s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001846s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001959s ]
+
+[ 2014-03-18T14:23:36+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003395s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014427s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004169s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026284s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001840s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001605s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001443s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006880s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002591s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002693s ]
+
+[ 2014-03-18T14:23:43+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010948s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014095s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.006270s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023284s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002772s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005835s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002178s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012544s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001461s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2014-03-18T14:26:33+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002604s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012931s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004454s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002234s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003016s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001671s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009050s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002124s ]
+
+[ 2014-03-18T14:27:08+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013170s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004161s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024924s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001697s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001561s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001787s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006916s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2014-03-18T14:28:17+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013307s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004405s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027426s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003315s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002087s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001488s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009035s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001920s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2014-03-18T14:28:50+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006259s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014076s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003629s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044012s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008388s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010002s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002121s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026042s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006689s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006802s ]
+
+[ 2014-03-18T14:29:16+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001887s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012968s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003870s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023280s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001810s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001571s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002125s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008488s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2014-03-18T14:29:19+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.016229s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004747s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023780s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001422s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001254s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001063s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005548s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002073s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002183s ]
+
+[ 2014-03-18T14:29:22+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012830s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004650s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022955s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001712s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001780s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001723s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009083s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002005s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002123s ]
+
+[ 2014-03-18T14:29:24+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002227s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013175s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004341s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024488s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002812s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002258s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001749s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009448s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003206s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003317s ]
+
+[ 2014-03-18T14:33:39+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003720s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013189s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004238s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029116s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002833s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002135s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010243s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002780s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002888s ]
+
+[ 2014-03-18T14:33:53+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.016128s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004093s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002044s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002269s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001766s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007785s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001903s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002010s ]
+
+[ 2014-03-18T14:36:26+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004110s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.011358s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004298s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029219s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002984s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003162s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003069s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011754s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002490s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002678s ]
+
+[ 2014-03-18T14:36:28+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002089s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013274s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003950s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025413s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002209s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001148s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006633s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001507s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001600s ]
+
+[ 2014-03-18T14:38:37+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003792s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015368s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003546s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027372s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002302s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002377s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001967s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008708s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001866s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001960s ]
+
+[ 2014-03-18T14:38:40+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015843s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004482s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030086s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002290s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004812s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018407s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002055s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002182s ]
+
+[ 2014-03-18T14:39:21+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014012s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003684s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023103s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001868s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001883s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009503s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002682s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002788s ]
+
+[ 2014-03-18T14:39:24+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014661s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004326s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024163s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001777s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.023420s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002722s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030458s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001880s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002141s ]
+
+[ 2014-03-18T14:39:31+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.010978s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004012s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022997s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001927s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001232s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001181s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006318s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002021s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002180s ]
+
+[ 2014-03-18T14:39:33+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012037s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003365s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021973s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001643s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001734s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001181s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007004s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002705s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002818s ]
+
+[ 2014-03-18T14:40:18+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002114s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012637s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003422s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041262s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001971s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002043s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001590s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007666s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002130s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002241s ]
+
+[ 2014-03-18T14:40:32+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015274s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004450s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033865s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003710s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001543s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001298s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010010s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001913s ]
+
+[ 2014-03-18T14:43:29+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004928s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.011326s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005581s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029098s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002158s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002037s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002896s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009252s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002255s ]
+
+[ 2014-03-18T14:43:37+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.068909s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003939s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024163s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001934s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001180s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001019s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005679s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001430s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2014-03-18T14:44:08+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013730s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004008s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023139s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002031s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002205s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001477s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008177s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002104s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002214s ]
+
+[ 2014-03-18T14:47:49+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002887s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012987s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003981s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027710s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004045s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004351s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002283s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013690s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002412s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002519s ]
+
+[ 2014-03-18T14:47:50+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.010153s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.002679s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002027s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001624s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001443s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007408s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003656s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003791s ]
+
+[ 2014-03-18T14:54:08+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004166s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013813s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004263s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044423s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002789s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002695s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019808s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004702s ]
+
+[ 2014-03-18T14:54:10+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014049s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004663s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027831s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001955s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002691s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008736s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002240s ]
+
+[ 2014-03-18T14:55:38+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012879s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003500s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024353s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002155s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001743s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002240s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008357s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001831s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2014-03-18T14:55:40+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015161s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004669s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025346s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001709s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002096s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001377s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007611s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001967s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002087s ]
+
+[ 2014-03-18T14:56:28+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005396s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014638s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004684s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030307s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002848s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001919s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001760s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008962s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005342s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005452s ]
+
+[ 2014-03-18T14:56:31+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002934s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013071s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005040s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025210s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003741s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001695s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001559s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009388s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002286s ]
+
+[ 2014-03-18T15:00:55+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003685s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013034s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004748s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022259s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001744s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001602s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002263s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007916s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003300s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003406s ]
+
+[ 2014-03-18T15:00:57+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015306s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004847s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002952s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001487s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007840s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001635s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2014-03-18T15:02:09+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014231s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004670s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021057s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001611s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001479s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001518s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008153s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003082s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003188s ]
+
+[ 2014-03-18T15:02:11+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013144s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005200s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022365s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001865s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003750s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001229s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008771s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003038s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003151s ]
+
+[ 2014-03-18T15:02:54+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014124s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005447s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019653s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001982s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001241s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001094s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006459s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002324s ]
+
+[ 2014-03-18T15:03:31+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004254s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.016043s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003767s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022418s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006150s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002224s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003169s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017476s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002917s ]
+
+[ 2014-03-18T15:04:35+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013138s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004488s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023293s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001568s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002163s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010636s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2014-03-18T15:08:50+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007601s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013015s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004326s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028045s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003340s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002244s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002592s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010946s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004052s ]
+
+[ 2014-03-18T15:09:01+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E8%8F%9C%E5%BF%83&post_type=product
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.035800s ]
+INFO: [ route_check ] --END-- [ RunTime:0.035936s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+SQL: CALL search_product('ËèúÂøÉ') [ RunTime:0.407030s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016324s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001344s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001258s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001039s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005182s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001581s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001713s ]
+
+[ 2014-03-18T15:10:42+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.011877s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.006894s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019077s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001896s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001174s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013053s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004125s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004240s ]
+
+[ 2014-03-18T15:11:36+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012654s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004582s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024172s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001978s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002230s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002202s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008893s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002158s ]
+
+[ 2014-03-18T15:12:45+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014687s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004382s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020320s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002043s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002254s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001482s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010631s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003539s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003654s ]
+
+[ 2014-03-18T15:13:19+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015888s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003409s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018081s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002128s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001755s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002547s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008589s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001637s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2014-03-18T15:14:10+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003977s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015946s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003766s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023988s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002380s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002017s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001529s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009762s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004691s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004949s ]
+
+[ 2014-03-18T15:14:24+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013164s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004940s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021128s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001731s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001568s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001611s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007171s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002235s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002355s ]
+
+[ 2014-03-18T15:15:57+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015611s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004768s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020700s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001553s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001395s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001351s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006956s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002466s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002596s ]
+
+[ 2014-03-18T15:17:23+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.016024s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005736s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025162s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003680s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002854s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002586s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012793s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006163s ]
+
+[ 2014-03-18T15:43:14+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.026070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.137098s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.134000s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004490s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.570596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.570733s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.038074s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.019437s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.015244s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.079622s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.034948s ]
+INFO: [ view_end ] --END-- [ RunTime:0.040468s ]
+
+[ 2014-03-18T15:43:30+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E8%8F%9C%E5%BF%83
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007248s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: CALL search_product('ËèúÂøÉ') [ RunTime:0.146481s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016826s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001905s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001377s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001725s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006968s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002006s ]
+
+[ 2014-03-18T15:52:31+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E8%8F%9C%E5%BF%83
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003856s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004577s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004110s ]
+SQL: CALL search_product('ËèúÂøÉ') [ RunTime:0.010511s ]
+NOTIC: [8] Use of undefined constant length - assumed 'length' C:\inetpub\wwwroot\vegbasket\Lib\Action\SearchAction.class.php Á¨¨ 10 Ë°å.
+NOTIC: [8] Array to string conversion C:\inetpub\wwwroot\vegbasket\Lib\Action\SearchAction.class.php Á¨¨ 10 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038620s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004260s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002132s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002082s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011565s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003359s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003472s ]
+
+[ 2014-03-18T15:53:39+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E8%8F%9C%E5%BF%83
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002333s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002469s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004409s ]
+SQL: CALL search_product('ËèúÂøÉ') [ RunTime:0.007561s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020288s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001563s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005740s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002172s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012284s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003085s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003196s ]
+
+[ 2014-03-18T15:54:54+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E8%8F%9C%E5%BF%83
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003554s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003694s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003048s ]
+SQL: CALL search_product('ËèúÂøÉ') [ RunTime:0.009189s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined property: ThinkTemplate::$rowcount C:\inetpub\wwwroot\vegbasket\Runtime\Cache\282f78c26a6f0f52daba68de8ccd937b.php Á¨¨ 32 Ë°å.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023226s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002478s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004207s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004216s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014026s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003985s ]
+
+[ 2014-03-18T15:55:09+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E8%8F%9C%E5%BF%83
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002133s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: CALL search_product('ËèúÂøÉ') [ RunTime:0.007004s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022941s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003354s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002203s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008600s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016657s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001960s ]
+
+[ 2014-03-18T15:55:19+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E8%8F%9C%E5%BF%83
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001973s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+SQL: CALL search_product('ËèúÂøÉ') [ RunTime:0.010553s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021718s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001767s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001694s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001918s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008749s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002066s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002177s ]
+
+[ 2014-03-18T15:55:33+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E7%99%BD%E8%8F%9C
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002046s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+SQL: CALL search_product('ÁôΩËèú') [ RunTime:0.007914s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018203s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001636s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001520s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007247s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002439s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002558s ]
+
+[ 2014-03-18T15:56:09+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E9%A3%9E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002301s ]
+SQL: CALL search_product('È£û') [ RunTime:0.009637s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001223s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001136s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005188s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003188s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003368s ]
+
+[ 2014-03-18T15:56:53+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014973s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005197s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020799s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001296s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001010s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004987s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001526s ]
+
+[ 2014-03-18T16:29:03+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002665s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.016960s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004013s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040644s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001701s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001676s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002726s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008392s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001902s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001996s ]
+
+[ 2014-03-18T16:29:43+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.011628s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003203s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017688s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001760s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001510s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006337s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001638s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001746s ]
+
+[ 2014-03-18T16:30:35+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013114s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005167s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018712s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001645s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001316s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001021s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005609s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001803s ]
+
+[ 2014-03-18T16:31:52+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003386s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014202s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004585s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023786s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003352s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001813s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003111s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011038s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004665s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004775s ]
+
+[ 2014-03-18T16:32:05+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.017195s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005558s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022668s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003663s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005124s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001584s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019826s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002735s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002877s ]
+
+[ 2014-03-18T16:33:12+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013170s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004172s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018750s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002117s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001157s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002574s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007738s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001756s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001863s ]
+
+[ 2014-03-18T16:33:25+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012632s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004271s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017087s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001307s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001593s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006336s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003262s ]
+
+[ 2014-03-18T16:34:08+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004530s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.011437s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003705s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023309s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002576s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002895s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003443s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012012s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002260s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002375s ]
+
+[ 2014-03-18T16:39:31+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004712s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013706s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005051s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025863s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002187s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003567s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004517s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016998s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003260s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003383s ]
+
+[ 2014-03-18T16:39:52+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014339s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003914s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017757s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001494s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001507s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006399s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001808s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001905s ]
+
+[ 2014-03-18T16:39:55+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002601s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014398s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004591s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020817s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001853s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001374s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001395s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006156s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001758s ]
+
+[ 2014-03-18T16:40:19+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015155s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.008457s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021120s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001552s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001574s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003290s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008872s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002329s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002434s ]
+
+[ 2014-03-18T16:40:25+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015320s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004672s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021268s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001447s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001246s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003360s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009846s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002774s ]
+
+[ 2014-03-18T16:40:44+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015859s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005866s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020948s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.019285s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005357s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028165s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002153s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002279s ]
+
+[ 2014-03-18T16:44:58+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007684s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.016839s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003767s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022637s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001664s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001824s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003378s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011749s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003447s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003559s ]
+
+[ 2014-03-18T16:47:01+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004342s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013636s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005260s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021640s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004161s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004406s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001768s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012440s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002004s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002105s ]
+
+[ 2014-03-18T16:47:26+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012864s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003703s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023052s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002302s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001624s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002043s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008840s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001587s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001696s ]
+
+[ 2014-03-18T16:47:53+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.017501s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005177s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021101s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001875s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004189s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010550s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002144s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002250s ]
+
+[ 2014-03-18T16:50:08+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003721s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.010778s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004183s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021107s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002696s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002914s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003679s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012017s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002008s ]
+
+[ 2014-03-18T16:50:31+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013270s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005252s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020506s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001669s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001481s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001355s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006294s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001550s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2014-03-18T16:51:03+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013914s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005727s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018663s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001742s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007725s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012969s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002255s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002365s ]
+
+[ 2014-03-18T16:51:07+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.035135s ]
+INFO: [ route_check ] --END-- [ RunTime:0.035264s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: CALL search_product('') [ RunTime:0.159571s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038219s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002035s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001363s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006949s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002294s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002427s ]
+
+[ 2014-03-18T16:55:13+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004657s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.010906s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004175s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021013s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002163s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002944s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010819s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002646s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002747s ]
+
+[ 2014-03-18T16:55:56+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.010978s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004094s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017826s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001396s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001376s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005999s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001815s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001919s ]
+
+[ 2014-03-18T16:56:18+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013976s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003777s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015973s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001376s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001270s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005548s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001751s ]
+
+[ 2014-03-18T16:56:20+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002005s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.014222s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005843s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002798s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001425s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008253s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004909s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005013s ]
+
+[ 2014-03-18T16:56:39+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013074s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003184s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018988s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001611s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001397s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007040s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001988s ]
+
+[ 2014-03-18T16:56:40+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004010s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012794s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004052s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046205s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001653s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002530s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002557s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010753s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002343s ]
+
+[ 2014-03-18T16:56:42+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013035s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.003799s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019033s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001547s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001515s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001518s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006698s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002111s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002316s ]
+
+[ 2014-03-18T16:56:45+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002433s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+SQL: CALL search_product('') [ RunTime:0.016921s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017292s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001900s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001706s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002664s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009107s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002386s ]
+
+[ 2014-03-18T16:56:54+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001920s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002045s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+SQL: CALL search_product('') [ RunTime:0.010107s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019748s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002306s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001718s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002458s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009193s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002074s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002198s ]
+
+[ 2014-03-18T17:01:39+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003030s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012513s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004724s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002310s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006272s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002726s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015879s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002538s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002638s ]
+
+[ 2014-03-18T17:01:54+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003092s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004062s ]
+SQL: CALL search_product('') [ RunTime:0.013991s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019572s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002129s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002043s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002267s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008518s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001917s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002218s ]
+
+[ 2014-03-18T17:05:41+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006249s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006393s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003061s ]
+SQL: CALL search_product('') [ RunTime:0.010494s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023939s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004176s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002596s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002516s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012858s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003935s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004581s ]
+
+[ 2014-03-18T17:06:29+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002383s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+SQL: CALL search_product('') [ RunTime:0.014845s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021335s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002575s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001541s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001091s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007569s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001480s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001589s ]
+
+[ 2014-03-18T17:07:01+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001601s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001715s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: CALL search_product('') [ RunTime:0.014282s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020142s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002345s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001313s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001084s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006389s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001907s ]
+
+[ 2014-03-18T17:07:49+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003432s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003716s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+SQL: CALL search_product('') [ RunTime:0.010975s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025922s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004821s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003767s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004046s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015400s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003383s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003551s ]
+
+[ 2014-03-18T17:08:07+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002106s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+SQL: CALL search_product('') [ RunTime:0.017683s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018149s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002235s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001639s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003030s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009073s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003584s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003717s ]
+
+[ 2014-03-18T17:08:38+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001817s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001949s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002165s ]
+SQL: CALL search_product('') [ RunTime:0.019658s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020302s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002378s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001837s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001839s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012105s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001995s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002121s ]
+
+[ 2014-03-18T17:08:46+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=null
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002076s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004515s ]
+SQL: CALL search_product('null') [ RunTime:0.049614s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016234s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001612s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001558s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006971s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002098s ]
+
+[ 2014-03-18T17:08:56+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002167s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.019050s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004758s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019726s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001525s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001696s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001375s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007144s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001966s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002065s ]
+
+[ 2014-03-18T18:46:25+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004276s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.060938s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005228s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041094s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002357s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001930s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001540s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008113s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001845s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001942s ]
+
+[ 2014-03-18T18:46:26+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004761s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013423s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004456s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045759s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004523s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002988s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012673s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002594s ]
+
+[ 2014-03-18T18:46:27+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012461s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004703s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020370s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002218s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001721s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001907s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011878s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002159s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002275s ]
+
+[ 2014-03-18T18:55:44+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003716s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012463s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004884s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043451s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002976s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002264s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002002s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009791s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002457s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002552s ]
+
+[ 2014-03-18T19:20:19+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E5%B9%BF%E5%B7%9E
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003640s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004146s ]
+SQL: CALL search_product('ÂπøÂ∑û') [ RunTime:0.207938s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038963s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001996s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003201s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001617s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009258s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002912s ]
+
+[ 2014-03-18T20:31:54+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003156s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.461066s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005480s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] include(__PUBLIC__/head.html): failed to open stream: No such file or directory C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php Á¨¨ 39 Ë°å.
+NOTIC: [2] include(): Failed opening '__PUBLIC__/head.html' for inclusion (include_path='.;C:\php\pear;./ThinkPHP/Extend/Vendor/') C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php Á¨¨ 39 Ë°å.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.133573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133700s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001700s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002265s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002048s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009933s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003328s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003428s ]
+
+[ 2014-03-18T20:56:40+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.025187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025356s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.122438s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.006390s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.151141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151259s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001958s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001929s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002759s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009217s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005892s ]
+
+[ 2014-03-18T20:56:46+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E7%AE%97%E6%B3%95
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.026343s ]
+INFO: [ route_check ] --END-- [ RunTime:0.026547s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+SQL: CALL search_product('ÁÆóÊ≥ï') [ RunTime:0.377358s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035581s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001557s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001531s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001444s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007027s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002386s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002888s ]
+
+[ 2014-03-18T21:07:38+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011738s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.079037s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.005709s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041998s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002759s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001614s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011696s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003820s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004439s ]
+
+[ 2014-03-18T21:07:49+08:00 ] 0.0.0.0 /vegbasket/index.php/Search/searchkw?keyword=%E8%8F%9C%E5%BF%83
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002838s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004422s ]
+SQL: CALL search_product('ËèúÂøÉ') [ RunTime:0.063918s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018278s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001445s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001479s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001333s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006297s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002445s ]
+
+[ 2014-03-18T22:03:40+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007137s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.035941s ]
+SQL: SELECT * FROM `priceinfo` LIMIT 10   [ RunTime:0.004282s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036984s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004247s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001576s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003824s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011828s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002075s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002181s ]
+

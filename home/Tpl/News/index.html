@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>菜篮子最新动态</title>
+</head>
+<body>
+	<volist name="newslist" id="nl">
+	  <p><a href="__URL__/newsdetail/newsid/{$nl.news_id}">{$nl.news_title}</a></p>
+	</volist>
+</body>
+</html>

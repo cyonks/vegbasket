@@ -1,0 +1,16 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css" />
+	<title>后台首页</title>
+</head>
+<body>
+	<div id="main">
+		<div class="title">基本配置</div>
+		<div class="content">
+			欢迎进入后台！
+		</div>
+	</div>
+</body>
+</html>

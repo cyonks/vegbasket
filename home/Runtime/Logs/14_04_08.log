@@ -1,0 +1,818 @@
+[ 2014-04-08T00:03:41+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006342s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013107s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.010669s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.013475s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.004851s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.011969s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.001662s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.010946s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.002918s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.081821s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.076320s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054502s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002297s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002354s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008667s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016921s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2014-04-08T00:25:58+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003433s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.026673s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.009812s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.013047s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.001347s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.012024s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.002366s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.012590s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001271s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.055313s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.070340s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051557s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002199s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002599s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002834s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009816s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003693s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003865s ]
+
+[ 2014-04-08T00:30:54+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002649s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015606s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.012480s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.012337s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.001136s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.015375s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.007588s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.011244s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.002175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.049706s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.053549s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045168s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003401s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002578s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003072s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011834s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002819s ]
+
+[ 2014-04-08T00:35:34+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.028350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.035453s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.063202s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.012362s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.011568s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.000907s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.011472s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.001846s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.011483s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.004677s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.038984s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.040599s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.132791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132907s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006062s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003062s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009376s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022442s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011318s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011422s ]
+
+[ 2014-04-08T00:38:27+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006991s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.018966s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.012028s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.013705s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.002573s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.012678s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.003303s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.011275s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.068489s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.055426s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034758s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002383s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001523s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001990s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009025s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002691s ]
+
+[ 2014-04-08T00:41:07+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004511s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013384s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.010802s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.012146s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.001129s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.009849s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.007460s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.010691s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.044670s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.041293s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033788s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002929s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002276s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010379s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002978s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003492s ]
+
+[ 2014-04-08T00:41:20+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002143s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.017907s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.011695s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.017927s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.000958s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.011801s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.011591s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001517s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.039670s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.069065s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028796s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001699s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003570s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002670s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009767s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001638s ]
+
+[ 2014-04-08T00:41:55+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002236s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013846s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.010051s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.010274s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.003576s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.002221s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.010855s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.002088s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.014426s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001650s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.039019s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.043240s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028037s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001318s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001593s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002709s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008220s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001732s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001835s ]
+
+[ 2014-04-08T00:43:28+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005429s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.011113s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.011005s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.012271s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.001638s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.012409s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.003005s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.011871s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.002717s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.132403s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.045351s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036320s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001822s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002244s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003055s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009366s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003017s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003153s ]
+
+[ 2014-04-08T00:43:34+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002326s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015070s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.015612s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.012022s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.011278s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.011134s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.002031s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.010683s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001799s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.061106s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.051606s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033736s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001650s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008376s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002913s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003029s ]
+
+[ 2014-04-08T00:44:09+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002282s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.011015s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.010754s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.011218s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.002136s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001984s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.014237s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.010965s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001710s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.043663s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.047846s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029563s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001698s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001260s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011830s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001854s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001961s ]
+
+[ 2014-04-08T00:44:56+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012937s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.010823s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008823s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.000951s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.010178s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.001482s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.010431s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001264s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.045794s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.135407s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042312s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002285s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001718s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001324s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007914s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001988s ]
+
+[ 2014-04-08T10:57:45+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005663s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:1.380034s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.010105s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.011900s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.003958s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.003026s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.136976s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.126714s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.010863s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.060421s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.880175s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.063123s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050232s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002452s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003018s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003643s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012340s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002210s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002307s ]
+
+[ 2014-04-08T11:01:29+08:00 ] 0.0.0.0 /vegbasket/index.php/Index/index/date/2014-04-07/city/����/category/�߲�
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.025852s ]
+INFO: [ route_check ] --END-- [ RunTime:0.025981s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003316s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.012892s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.010852s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.011774s ]
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.002258s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.002687s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.013554s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.002880s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.012397s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.002530s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-07' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.057949s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-07' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.067252s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032647s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002403s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004400s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003626s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016100s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001987s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002092s ]
+
+[ 2014-04-08T12:41:33+08:00 ] 0.0.0.0 /vegbasket/index.php/Index/index/date/2014-04-07/city/����/category/�߲�
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.028087s ]
+INFO: [ route_check ] --END-- [ RunTime:0.028249s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003296s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.832596s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.011277s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008908s ]
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.001440s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.063372s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.060725s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.013189s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.036461s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-07' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.499130s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-07' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.072232s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061436s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003021s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003443s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002079s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011059s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003314s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003423s ]
+
+[ 2014-04-08T12:57:10+08:00 ] 0.0.0.0 /vegbasket/index.php/Index/index/date/2014-04-07/city/����/category/�߲�
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002612s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.008781s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.009505s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008396s ]
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.001166s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.008208s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.008328s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001770s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-07' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.049692s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-07' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.059405s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043692s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001637s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001770s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001373s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007142s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003490s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003588s ]
+
+[ 2014-04-08T13:31:14+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003144s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.016910s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.008701s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.010648s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.003219s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.012590s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.002417s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.010935s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.002662s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.037856s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.034666s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042802s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001802s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001514s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001372s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006843s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002266s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002377s ]
+
+[ 2014-04-08T13:31:34+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.020750s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.013623s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.018001s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.002117s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.004966s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.016113s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.003688s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.051751s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.005365s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.075569s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.050779s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027849s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001165s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001081s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000972s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027585s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002043s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002147s ]
+
+[ 2014-04-08T13:43:48+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003227s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.013681s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.012281s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.013923s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.001979s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.002997s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.015924s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.002604s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.015384s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001398s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.051516s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.047186s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./public/html/footer.html): failed to open stream: No such file or directory C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.112855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112969s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001968s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003990s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002638s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002375s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002484s ]
+
+[ 2014-04-08T13:45:49+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.015226s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.012944s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.018760s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.000712s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.003271s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.017969s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.002452s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.011118s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001252s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.035945s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.036483s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./public/html/footer.html): failed to open stream: No such file or directory C:\inetpub\wwwroot\vegbasket\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029038s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003515s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002580s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002518s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010906s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002281s ]
+
+[ 2014-04-08T13:49:32+08:00 ] 0.0.0.0 /vegbasket/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002530s ]
+SQL: SHOW COLUMNS FROM `priceinfo` [ RunTime:0.019332s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.010878s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.008510s ]
+NOTIC: [8] Undefined index: date C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 12 行.
+NOTIC: [8] Undefined index: category C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: city C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 15 行.
+NOTIC: [8] Undefined index: keyword C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 16 行.
+SQL: SELECT * FROM `city` WHERE ( `city_name` <> '广州' )  [ RunTime:0.001041s ]
+SQL: SELECT * FROM `category` WHERE ( `category_name` <> '蔬菜' )  [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.011294s ]
+SQL: SELECT * FROM `news` ORDER BY public_date desc LIMIT 5   [ RunTime:0.002484s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.011480s ]
+SQL: SELECT * FROM `product` ORDER BY search_count desc LIMIT 4   [ RunTime:0.001079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' ) LIMIT 1   [ RunTime:0.036551s ]
+SQL: SELECT * FROM `priceinfo` WHERE ( `pdate` = '2014-04-08' ) AND ( `category_name` = '蔬菜' ) AND ( `city_name` = '广州' )  [ RunTime:0.038299s ]
+NOTIC: [8] Undefined variable: url C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 131 行.
+NOTIC: [8] Undefined variable: scroll C:\inetpub\wwwroot\vegbasket\Lib\ORG\Page.class.php 第 51 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\inetpub\wwwroot\vegbasket\Lib\Action\IndexAction.class.php 第 143 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: parameter C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 121 行.
+NOTIC: [8] Undefined variable: parameter2 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 122 行.
+NOTIC: [8] Undefined variable: parameter3 C:\inetpub\wwwroot\vegbasket\Runtime\Cache\e73ed9118866169800a7b2dc2ec834a1.php 第 123 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030965s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001765s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001852s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008630s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002228s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002337s ]
+

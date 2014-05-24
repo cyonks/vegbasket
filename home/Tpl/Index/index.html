@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="zh">
+<head>
+    <meta  http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width" />
+    <title>菜篮子价格查询首页</title>
+    <link rel='stylesheet' href='__PUBLIC__/css/index.css' type='text/css'/>
+    <script type="text/javascript" src="__PUBLIC__/js/My97DatePicker/WdatePicker.js"></script>
+    <script type='text/javascript' src='__PUBLIC__/js/swfobject.js'></script>
+    <script type="text/javascript" src='__PUBLIC__/js/jquery.js'></script>
+    <script type="text/javascript" src='__PUBLIC__/js/index.js'></script>
+   <script type="text/javascript">
+      var url='__URL__';
+      var _public='__PUBLIC__';
+   </script>
+   <script type="text/javascript" src='__PUBLIC__/js/flash.js'></script>
+</head>
+<body>
+<div id="list"></div>
+<div class="whole_page">
+	<div class="C_top">
+  <div class="C_logo"><a href="/vegbasket" title="菜篮子查询网">菜篮子查询网</a></div>
+  <div class="C_search">
+  <form action="__URL__/../Search/index" method="get" name="DJmyform" id="DJmyform" target="_blank">
+    <div class="C_searchTxt">
+      <input type="text" name="SearchKey" id="SearchKey" autocomplete="off" class="C" value="请输入产品名称或产品编号查询" onfocus="if(this.value=='请输入产品名称或产品编号查询') this.value='';" onblur="if(this.value=='') this.value='请输入产品名称或产品编号查询';" onkeydown="if(event.keyCode==13)search()"/>
+    </div>
+    <div class="C_searchBtn">
+      <input name="" type="button" id="DJSearchSubmit" value="搜索" class="btn" onclick="search()" />
+    </div>
+    </form>
+    <div class="search_key">热门查询:&nbsp;      
+      <volist name="listsearch" id="ls">
+      <a href="__URL__/../Search/index/keyword/{$ls.product_name}" target="_blank">{$ls.product_name}</a>&nbsp;
+      </volist>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- 导航栏 -->
+<div id="nav_">
+  <nav class="breadcrumb">
+     <input id="sdate" class="Wdate" name="date" type="text" value={$date} readonly="true" onfocus="WdatePicker({skin:'whyGreen',onpicked:function(dp){refreshtable();}})" />
+
+      <select class="cities" name="cities" title="城市" onchange="refreshtable()">
+         <option>{$select_city}</option>
+        <volist name="listcity" id="lc">
+          <option>{$lc.city_name}</option>
+        </volist>
+      </select>
+      <div class="category_">
+      <span  title="分类">分类:</span>
+        <select  class="select_cate" name="categorys" title="分类" onchange="refreshtable()">
+
+            <option>{$select_cate}</option>
+          <volist name="listcate" id="v">
+            <option>{$v.category_name}</option>
+          </volist>
+        </select>
+
+
+      </div>
+      <div class="admin">
+        <a href="/vegbasket/index.php/Search" target="_blank">搜索页面</a>&nbsp;&nbsp;
+        <a href="/vegbasket/index.php/Admin" target="_blank">后台管理</a>
+      </div>    
+  </nav>  
+</div>
+
+<div class="slid_and_state">
+   <!--滚动栏-->
+  <div id="slider2" class="inner2 flash">
+      <div id="piecemaker"></div>
+  </div>
+      
+   <!--动态新闻-->
+   <div class="news">
+      <center>
+      <h2 id="news_head">最新动态</h2>
+      </center>
+        <volist name="listnews" id="ln">
+        <li class="news_title">
+          <a href="__URL__/../News/newsdetail/newsid/{$ln.news_id}" target="_blank">{$ln.news_title}</a>
+        </li>
+        </volist>
+        <div class="more_news"><a href="__URL__/../News" target="_blank">更多动态</a></div>
+   </div>
+</div>
+
+<div class="main_content">
+  <div class="today">
+    <h2 class="h_today">今日推荐</h2>
+    <volist name="list" id="to" offset="0" length="8">
+    <p>{$to.product_name}：{$to.product_price}￥/kg</p>      
+    </volist>
+
+  </div>
+  <div class="box_content" id="tb_content">
+      <include file="table" />
+      <div class="clear"></div>
+  </div>
+</div>
+</div>
+
+<!-- <footer id="footer1" class="vbk-footer">帮助</footer> -->
+ <include file="./public/html/footer.html"/>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<css href="__PUBLIC__/css/admin.css"/>
+<link href="__PUBLIC__/tablecloth/tablecloth.css" rel="stylesheet" type="text/css" media="screen" />
+
+	<title></title>
+</head>
+<body>
+<div id="main">
+	<div class="title">分类列表</div>
+	<div class="content">
+	<table width="98%" cellpadding="0" cellspacing="0" class="mytab">
+	  <tr>
+        <th>编号</th>
+        <th>分类名称</th>
+        <th>分类描述</th>
+      </tr>
+    <volist name="list" id="vo">
+    
+      <tr>
+      <td>{$vo.category_id}</td>
+      <td>{$vo.category_name}</td>
+      <td>{$vo.category_desc}</td> 
+      </tr>
+  </volist>
+
+	</table>
+	</div>
+</div>
+</body>
+</html>

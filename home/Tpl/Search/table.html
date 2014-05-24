@@ -1,0 +1,27 @@
+
+<h2 id="result_title">您搜索的关键字是：<span id="kw">{$keyword}</span>,共有{$count}条记录</h2>
+    <table cellspacing="0" cellpadding="0">
+      <tr>
+        <th>日期</th>
+        <th>市场</th>
+        <th>产品</th>
+        <th>类别</th>
+        <th>价格</th>
+        <th>发布者</th>
+        <th>数据来源</th>
+      </tr>
+    <volist name="list" id="vo">
+    
+      <tr>
+      <td><a href="" target="_blank">{$vo.pdate}</a></td>
+      <td>{$vo.market_name}</td>
+      <td><a href="__URL__/../Product/index/pname/{$vo.product_name}/mname/{$vo.market_name}" target="_blank">{$vo.product_name}</a></td>
+      <td>{$vo.category_name}</td>
+      <td>{$vo.product_price}</td>
+      <td>{$vo.publisher}</td>
+      <td>{$vo.datasource}</td> 
+      </tr>
+  </volist>
+    </table>
+    <div class="result page" id="page">{$page}</div>
+    <!-- <div>P:{$parameter}</div> -->

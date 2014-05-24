@@ -1,0 +1,18 @@
+<table cellspacing="0" cellpadding="0">
+      <tr>
+        <th>编号</th>
+        <th>产品</th>
+        <th>分类</th>
+        <th>操作</th>
+      </tr>
+    <volist name="list" id="vo">
+    
+      <tr>
+      <td>{$vo.product_id}</td>
+      <td>{$vo.product_name}</td>
+      <td>{$vo.category_id}</td>
+      <td>操作</td> 
+      </tr>
+  </volist>
+    </table>
+    <div class="result page" id="page">{$page}</div>
